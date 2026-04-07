@@ -1,6 +1,6 @@
 import dagster as dg
 from dagster_dbt import DbtCliResource, dbt_assets, DagsterDbtTranslator
-from dagster_and_dbt.defs.project import dbt_project
+from dagster_and_dbt.project import dbt_project
 from dagster_and_dbt.defs.partitions import daily_partition
 import json
 
